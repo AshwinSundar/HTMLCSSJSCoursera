@@ -62,12 +62,25 @@ div {
 @media (min-width: 992px) {
 	.col-desk-3 {
 		float: left;
+		width: 25%;
+		margin: 4.16%;
+	}
+
+	.col-desk-4 {
+		float: left;
 		width: 33.33%;
 	}
 }
 
 /* Tablet view */
 @media (min-width: 768px) and (max-width: 991px) {
+	.col-tab-4 {
+		float: left;
+		width: 33.33%;
+		margin: 8.33%;
+
+	}
+
 	.col-tab-6 {
 		float: left;
 		width: 50%;
@@ -84,5 +97,6 @@ div {
 	.col-mob-12 {
 		float: left;
 		width: 100%;
+		margin: 4%;
 	}	
 }
